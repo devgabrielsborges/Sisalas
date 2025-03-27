@@ -45,7 +45,7 @@
                 <property name="margin-end">10</property>
                 <property name="margin-top">10</property>
                 <property name="margin-bottom">20</property>
-                <property name="pixbuf">../images/upe.png</property>
+                <property name="pixbuf">../src/assets/images/upe.png</property>
               </object>
               <packing>
                 <property name="expand">False</property>
