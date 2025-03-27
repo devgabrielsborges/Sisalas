@@ -27,13 +27,13 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    // Carregar o arquivo CSS
+    // Loading CSS file
     GtkCssProvider *css_provider = gtk_css_provider_new();
     if (!gtk_css_provider_load_from_path(css_provider, "style.css", NULL)) {
         g_warning("Não foi possível carregar o arquivo style.css");
     }
 
-    // Aplicar o CSS globalmente
+    // Aplying CSS to the application
     gtk_style_context_add_provider_for_screen(
         gdk_screen_get_default(),
         GTK_STYLE_PROVIDER(css_provider),
