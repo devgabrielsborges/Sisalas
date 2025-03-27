@@ -3,3 +3,13 @@
 .build/
 .backup/
 src/interface.glade~
+# Database files
+*.db
+data/
+# Build artifacts
+build/
+bin/
+CMakeFiles/
+*.o
+*.so
+*.a
